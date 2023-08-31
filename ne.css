@@ -49,6 +49,22 @@
         left: 45% !important;
         top: 23% !important;
     }
+       body{
+        width: fit-content !important;
+    }
+    .background-container2{
+        width: 50% !important;
+    }
+    .background-container{
+        width: 50% !important;
+    }
+    .promotion{
+        margin-left: 3rem !important;
+        padding-left: 3rem !important;
+    }
+    .labore{
+        font-size: 0px !important;
+    }
     
   }
  
