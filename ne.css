@@ -51,6 +51,7 @@
     }
        body{
         width: fit-content !important;
+        margin-left: 60px !important;
     }
     .background-container2{
         width: 50% !important;
