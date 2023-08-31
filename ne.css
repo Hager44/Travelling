@@ -66,6 +66,18 @@
     .labore{
         font-size: 0px !important;
     }
+      .tour-guide-rect{
+        left: 50% !important;
+     }
+     .rectangle{
+        left:66% !important;
+     }
+     .hands-rect{
+        left: 82% !important;
+     }
+     .medical-team-rect{
+        left: 100% !important;
+     }
     
   }
  
