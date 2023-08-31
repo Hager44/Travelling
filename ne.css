@@ -1,0 +1,54 @@
+@media (max-width:1000px) {
+    .context,
+    .search-tool,
+    .image_group {
+      position: relative;
+      top:25%;
+    }
+    
+  }
+
+  @media (max-width:1000px) {
+    .contex{
+        line-height: 80px;
+        font-size: 100px;
+
+    }
+    .scroll-container{
+        bottom:570px !important;
+    }
+    .input-container{
+        width: 525px !important;
+    }
+    .new_rect0{
+       left:25% !important;
+    }
+    .rectangle{
+      left:41% !important;
+    }
+    .row-white-box:hover .rectangle{
+        left: 38% !important;
+      }
+      .eifel-tower{
+        height: 485px !important;
+      }
+    .quote{
+        top:195px !important;
+    }
+    .promote{
+        top: 3% !important;
+
+    }
+
+    .reviews{
+        line-height: 55px !important;
+        left: 54% !important;
+        top: 15% !important;
+    }
+    .about{
+        left: 45%;
+        top: 23%;
+    }
+    
+  }
+ 
