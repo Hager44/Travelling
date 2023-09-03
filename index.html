@@ -7,7 +7,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Volkhov:wght@700&display=swap" rel="stylesheet">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="./ne.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     
+    
+
+
     <style>
       .scroll {
         margin: 0;
@@ -22,7 +27,7 @@
         position: relative;
         display: inline-block;
         line-height: 0; /* To remove whitespace between inline-block elements */
-        bottom:490px; /* Adjust this value to move the entire set up */
+        bottom:516px; /* Adjust this value to move the entire set up */
       }
       .outer-half-circle {
         position: absolute;
@@ -67,8 +72,11 @@
      font-weight:400;
      font-size:19px;
      height:auto;
+    
+
   }
  
+
 .row-white-box{
   z-index: 1;
 }
@@ -80,68 +88,81 @@
   align-items:center!important;
   /*margin-left: 15%!important;*/
   margin-bottom: 10px !important;
+  background-color: white;
 
 }
-.new_rect{
+/*.new_rect{
   left:24%;
-  top:1340px;
+  top:100px;
   z-index:-1;
   visibility: hidden !important;
   
-}
+}*/
 
-.row-white-box:hover .new_rect{
+.new:hover .new_rect{
   visibility: visible !important;
-  z-index: -1 !important;
+ /* z-index: -1 !important;*/
 
 }
 
-.new_rect0{
+
+
+/*.new_rect0{
   left:2%;
   top:1340px;
   z-index:-1;
   visibility: hidden !important;
   
-}
+}*/
 
 .row-white-box:hover .new_rect0{
   visibility: visible !important;
-  z-index: -1 !important;
+  /*z-index: -1 !important;*/
 
 }
-.new_rect1{
+
+/*.new_rect1{
   left:46%;
   top:1320px;
   z-index:-1;
   visibility: hidden !important;
   
-}
+}*/
 
 .row-white-box:hover .new_rect1{
   visibility: visible !important;
-  z-index: -1 !important;
+  /*z-index: -1 !important;*/
+
 }
 
 
-.new_rect2{
+/*.new_rect2{
   left:68%;
   top:1320px;
   z-index:-1;
   visibility: hidden !important;
   
-}
+}*/
 
 .row-white-box:hover .new_rect2{
   visibility: visible !important;
-  z-index: -1 !important;
+  /*z-index: -1 !important;*/
 
 }
 
 
 .row-white-box:hover .rectangle{
-  left: 36% !important;
+  left: 35% !important;
 }
-
+.row-white-box:hover .rectangle0{
+  left: 40% !important;
+}
+.row-white-box:hover .rectangle1{
+  left: 40% !important;
+}
+.row-white-box:hover .rectangle2{
+  left: 40% !important;
+}
 
 .background-container {
   position: relative;
@@ -167,7 +188,7 @@
 
 .background-container3{
   position: relative;
-  overflow: hidden;
+  /*overflow: hidden;*/
   background: url('./h1-background-img-1\ 1.png') no-repeat center center;
   background-size:cover;
   /*width:100vw;*/
@@ -208,6 +229,9 @@ div a:hover{
 
 
     </style>
+    
+    
+    
 
 </head>
 
@@ -253,7 +277,7 @@ div a:hover{
               <li class="nav-item">
                 <a class="nav-link text-white" href="#reviews">About</a>
               </li>
-              <li class="nav-item dropdown">
+              <li class="nav-item dropdown" >
                 <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Services
                 </a>
@@ -305,10 +329,10 @@ div a:hover{
       <div class="input-group input-group-sm" >
        <div class="container g-0 mt-3">
         <div class="row">
-         <div class="col-6 d-flex justify-content-center input-container">
+         <div class="col-6 d-flex justify-content-center input-container py-4">
           
           <input type="text" class="form-control custom-input" placeholder="Where to?" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" style="width: 110px;background-color: transparent;outline: none;border-right: 2px solid #f3f3f378;border-top: none;border-left: none;border-bottom: none;box-shadow: none;color: white;border-radius: 0%;">
-          <button class="btn text-white dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="border-right: 2px solid #f3f3f378;border-top: none;border-left: none;border-bottom: none;border-radius: 0%;height: 63px;">Travel Type</button>
+          <button class="btn text-white dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="border-right: 2px solid #f3f3f378;border-top: none;border-left: none;border-bottom: none;border-radius: 0%;">Travel Type</button>
         <ul class="dropdown-menu">
           <li><a class="dropdown-item" href="#">Adventure</a></li>
           <li><a class="dropdown-item" href="#">Tourism</a></li>
@@ -320,7 +344,7 @@ div a:hover{
           <li><a class="dropdown-item" href="#">month</a></li>
           <li><a class="dropdown-item" href="#">year</a></li>
         </ul>
-        <button class="btn  text-white " type="button" style="background-color: #DF6951;height: 40px!important;margin: auto;width: 120px;">Submit</button>
+        <button class="btn  text-white " type="button" style="background-color: #DF6951;height: 40px!important;margin: auto;">Submit</button>
          </div>
         </div>
        </div>
@@ -395,42 +419,78 @@ div a:hover{
 <section class="services">
   <div class="container d-flex justify-content-center mt-5">
     <div class="row">
-      <div class="col-3">
+      <!--<div class="col-3">
         <div class="row-white-box">
-        <img src="./Rectangle 157.png" alt="second-image" class="position-absolute  mt-5 tour-guide-rect " style="top:auto;transform: translate(-50%, -50%);z-index: -1;left:15%;">
-        <img src="./tour-guide 1.png" alt="tour-guide" class="ms-5 position-relative">
+        <img src="./Rectangle 157.png" alt="second-image" class="position-absolute  mt-5 tour-guide-rect  " style="top:auto;transform: translate(-50%, -50%);z-index: -1;left:15%;">
+        <img src="./tour-guide 1.png" alt="tour-guide" class="ms-5">
         <img src="./Rectangle 157 (2).png" alt="rect" class="position-absolute new_rect0" >
         <h5 class="display-5 mt-4" style="font-family:'Poppins', sans-serif; font-weight:600;font-size: 20px;">Guided Tours</h5>
         <h6 class="display-6" style="font-family:'Poppins', sans-serif; font-weight:500;font-size: 16px;">sunt qui repellat saepe quo velit aperiam id aliquam placeat.</h6>
-        </div>
+        </div>-->
+        <div class="col-3 position-relative new">
+          <img src="./Rectangle 157 (2).png" alt="rect" class="position-absolute new_rect" style="top: 10rem;right:80%;visibility: hidden;"  >
+          <div class="row-white-box position-relative"><!--" row-white-box for hovering"-->
+            <img src="./Rectangle 157.png" alt="second-image" class="position-absolute mt-5 rectangle0" style="top:auto; transform: translate(-50%, -50%);z-index:-1;left:35%;">
+            <img src="./tour-guide 1.png" alt="travelling" class="ms-5" style="background-image: url('./Rectangle\ 157.png') no-repeat center center;">
+            
+            <h5 class="display-5" style="font-family:'Poppins', sans-serif; font-weight:600;font-size: 20px;">Guided Tours</h5>
+            <h6 class="display-6" style="font-family:'Poppins', sans-serif; font-weight:500;font-size: 16px;">sunt qui repellat saepe quo velit aperiam id aliquam placeat.</h6>
+          </div>
       </div>
-      <div class="col-3">
-        <div class="row-white-box "><!--" row-white-box for hovering"-->
-          <img src="./Rectangle 158.png" alt="second-image" class="position-absolute mt-5 rectangle" style="top:auto; transform: translate(-50%, -50%);z-index:-1;left: 35%;">
-          <img src="./travelling 1.png" alt="travelling" class="ms-5 position-relative">
-          <img src="./Rectangle 157 (2).png" alt="rect" class="position-absolute new_rect" >
+      <!--<div class="col-3 position-relative new">
+        <img src="Rectangle 157 (2).png" alt="rect" class="position-absolute new_rect" style="top: 16rem;right:80%;visibility: hidden;"  >
+        <div class="row-white-box position-relative">
+          <img src="./Rectangle 158.png" alt="second-image" class="position-absolute mt-5 rectangle" style="top:auto; transform: translate(-50%, -50%);z-index:-1;left: 45%;">
+          <img src="./travelling 1.png" alt="travelling" class="ms-5 " style="background-image: url('./Rectangle\ 158.png') no-repeat center center;">
+          
           <h5 class="display-5" style="font-family:'Poppins', sans-serif; font-weight:600;font-size: 20px;">Best Flights Options</h5>
           <h6 class="display-6" style="font-family:'Poppins', sans-serif; font-weight:500;font-size: 16px;">sunt qui repellat saepe<br> quo velit aperiam id<br> aliquam placeat.</h6>
-        </div>
-        <!--<img src="./Rectangle 157 (1).png" alt="second-image" class="position-absolute" style="top:190%; left:34%; transform: translate(-50%, -50%);z-index: -1;">-->
+        </div>-->
+        <div class="col-3 position-relative new">
+          <img src="./Rectangle 157 (2).png" alt="rect" class="position-absolute new_rect" style="top: 11rem;right:80%;visibility: hidden;"  >
+          <div class="row-white-box position-relative" style="margin-top: -20px;"><!--" row-white-box for hovering"-->
+            <img src="./Rectangle 157.png" alt="second-image" class="position-absolute mt-5 rectangle" style="top:auto; transform: translate(-50%, -50%);z-index:-1;left:30%;">
+            <img src="./travelling 1.png" alt="travelling" class="ms-5" style="background-image: url('./Rectangle\ 158.png') no-repeat center center;">
+            
+            <h5 class="display-5" style="font-family:'Poppins', sans-serif; font-weight:600;font-size: 20px;">Best Flights Options</h5>
+            <h6 class="display-6" style="font-family:'Poppins', sans-serif; font-weight:500;font-size: 16px;">sunt qui repellat saepe quo velit aperiam id aliquam placeat.</h6>
+          </div>
       </div>
-      <div class="col-3">
+      <!--<div class="col-3">
         <div class="row-white-box">
         <img src="./hands 1.png" alt="hands">
         <img src="./Rectangle 159.png" alt="second-image" class="position-absolute mt-5 hands-rect" style="top:auto; left: 55%; transform: translate(-50%, -50%);z-index: -1;">
         <img src="./Rectangle 157 (2).png" alt="rect" class="position-absolute new_rect1" >
         <h5 class="display-5 mt-4" style="font-family:'Poppins', sans-serif; font-weight:600;font-size: 20px;">Religious Tours</h5>
         <h6 class="display-6" style="font-family:'Poppins', sans-serif; font-weight:500;font-size: 16px;">sunt qui repellat saepe quo velit aperiam id aliquam placeat.</h6>
+      </div>-->
+      <div class="col-3 position-relative new">
+        <img src="./Rectangle 157 (2).png" alt="rect" class="position-absolute new_rect" style="top: 10rem;right:80%;visibility: hidden;"  >
+        <div class="row-white-box position-relative"><!--" row-white-box for hovering"-->
+          <img src="./Rectangle 159.png" alt="second-image" class="position-absolute mt-5 rectangle1" style="top:auto; transform: translate(-50%, -50%);z-index:-1;left:35%;">
+          <img src="./hands 1.png" alt="hands" class="ms-5" style="background-image: url('./Rectangle\ 157.png') no-repeat center center;">
+          
+          <h5 class="display-5" style="font-family:'Poppins', sans-serif; font-weight:600;font-size: 20px;">Religious Tours</h5>
+          <h6 class="display-6" style="font-family:'Poppins', sans-serif; font-weight:500;font-size: 16px;">sunt qui repellat saepe<br> quo velit aperiam id<br> aliquam placeat.</h6>
+        </div>
       </div>
-      </div>
-      <div class="col-3">
+      <!--<div class="col-3">
         <div class="row-white-box">
         <img src="./Rectangle 160.png" alt="second-image" class="position-absolute mt-5 medical-team-rect" style="top:auto; left:77%; transform: translate(-50%, -50%);z-index: -1;">
         <img src="./medical-team 1.png" alt="medical-team">
         <img src="./Rectangle 157 (2).png" alt="rect" class="position-absolute new_rect2" >
         <h5 class="display-5 mt-3" style="font-family:'Poppins', sans-serif; font-weight:600;font-size: 20px;">Medical insurance</h5>
         <h6 class="display-6" style="font-family:'Poppins', sans-serif; font-weight:500;font-size:16px;">sunt qui repellat saepe quo velit aperiam id aliquam placeat.</h6>
-      </div>
+      </div>-->
+      <div class="col-3 position-relative new">
+        <img src="./Rectangle 157 (2).png" alt="rect" class="position-absolute new_rect" style="top: 10rem;right:80%;visibility: hidden;"  >
+        <div class="row-white-box position-relative"><!--" row-white-box for hovering"-->
+          <img src="./Rectangle 160.png" alt="second-image" class="position-absolute mt-5 rectangle2" style="top:auto; transform: translate(-50%, -50%);z-index:-1;left:35%;">
+          <img src="./medical-team 1.png" alt="hands" class="ms-5" style="background-image: url('./Rectangle\ 157.png') no-repeat center center;">
+          
+          <h5 class="display-5" style="font-family:'Poppins', sans-serif; font-weight:600;font-size: 20px;">Religious Tours</h5>
+          <h6 class="display-6" style="font-family:'Poppins', sans-serif; font-weight:500;font-size: 16px;">sunt qui repellat saepe<br> quo velit aperiam id<br> aliquam placeat.</h6>
+        </div>
       </div>
     </div>
   </div>
@@ -448,10 +508,10 @@ div a:hover{
  <section class="honeymoon-specials">
   <div class="container">
     <div class="row align-items-center">
-      <div class="col-4 mt-5">
+      <div class="col-lg-6 col-12 mt-5">
         <img src="./Illustration.png" alt="honeymoon" class="img-fluid">
       </div>
-      <div class="col-6 ps-5 pe-5">
+      <div class="col-lg-6 col-12 ps-5 pe-5">
         <h6 class="d-flex display-6  mt-5 pt-5 pb-2  lead" style="font-family:'Poppins', sans-serif; font-weight: 700;font-size: 18px;color: #DF6951;">Honeymoon Specials</h6>
         <h6 class="display-6" style="font-family: 'Volkhov', serif;font-weight: 700;font-size: 50px;">Our Romantic Tropical Destinations</h6>
         <h6 class="display-6 text-black d-lg-inline d-sm-none" style="font-family: 'poppins', serif; font-weight:400;font-size: 16px;">Et labore harum non nobis ipsum eum molestias mollitia et corporis praesentium a laudantium internos. Non quis eius quo eligendi corrupti et fugiat nulla qui soluta recusandae in maxime quasi aut ducimus illum aut optio quibusdam!</h6>
@@ -466,7 +526,7 @@ div a:hover{
  <section class="trips">
     <div class="container ps-5">
      <div class="row">
-        <div class="col-5 ms-5 ps-5 pe-5">
+        <div class="col-lg-5 col-12 ms-5 ps-5 pe-5">
           <h6 class="display-6 mt-5" style="font-family:'Poppins', sans-serif; font-weight: 700;font-size: 18px;color: #DF6951;">Fast & Easy</h6>
           <h6 class="display-6 text-black" style="font-family: 'Volkhov', serif;font-weight:700;">Get Your Favourite Resort Bookings</h6>
           <div class="container mt-2">
@@ -514,7 +574,7 @@ div a:hover{
           
 
         </div>
-        <div class="col-6">
+        <div class="col-lg-6 col-12">
           <img src="./Illustration (1).png" alt="plane" class="img-fluid">
         </div>
      </div>
@@ -576,7 +636,7 @@ div a:hover{
  </section>
  <section class="Explore">
  <div class="container-fluid mt-5">
-    <div class="row">
+    <div class="row background-cont">
       <div class="col-6 mt-5 background-container2 drop-shadow">
         <div class="d-flex justify-content-center align-items-center mt-5 position-relative " style="height:70%;">
           <div class=" mb-4 position-absolute" style="z-index: 1;letter-spacing: 5px;height: 100px;font-family:'Poppins', sans-serif; font-weight: 700;font-size: 25px;line-height: 27px;color:#FFEFEC;">PROMOTIONS</div>
@@ -624,7 +684,7 @@ div a:hover{
     <div class="row my-5  align-items-center justify-content-center">
       <div class="col-4">
         <div style="position: relative;">
-          <img src="./Rectangle 19305.png" alt="rect">
+          <img src="./Rectangle 19305.png" alt="rect" style="max-width:100%">
           <img src="./Ellipse 623.png" alt="" style="position: absolute; top:250px; left:3px; z-index:1;">
         </div>
           <div class="card-body text-start mt-4">
@@ -633,13 +693,15 @@ div a:hover{
             <img src="./Vector (1).png" alt="" class="ms-4">
             <h6 class="display-6 d-inline" style="color: #7D7D7D;font-family:'Poppins', sans-serif; font-weight: 400;font-size: 16px;">25 People going</h6>
             <br>
-            <a href="https://en.wikipedia.org/wiki/Bern" class="card-title mt-2 me-5 pe-5 country" style="color:#2F2F2F;font-family:'Poppins', sans-serif; font-weight:700;font-size:29px;text-decoration: none;">Bern</a>
-            <div class="d-inline ms-5 ps-5">
+            <div class="d-flex justify-content-between align-items-center">
+            <a href="https://en.wikipedia.org/wiki/Bern" class="card-title country" style="color:#2F2F2F;font-family:'Poppins', sans-serif; font-weight:700;font-size:29px;text-decoration: none;">Bern</a>
+            <div class="d-inline ">
+              <img src="./bi_star-fill.png" alt="">
             <img src="./bi_star-fill.png" alt="">
             <img src="./bi_star-fill.png" alt="">
             <img src="./bi_star-fill.png" alt="">
             <img src="./bi_star-fill.png" alt="">
-            <img src="./bi_star-fill.png" alt="">
+            </div>
             </div>
             <br>
             <img src="./ep_location.png" alt="">
@@ -656,7 +718,7 @@ div a:hover{
 
       <div class="col-4">
         <div style="position: relative;">
-          <img src="./Rectangle 19305 (1).png" alt="rect">
+          <img src="./Rectangle 19305 (1).png" alt="rect" style="max-width: 100%;">
           <img src="./Ellipse 623 (1).png" alt="" style="position: absolute; top:250px; left:3px; z-index:1;">
         </div>
           <div class="card-body text-start mt-4">
@@ -665,14 +727,16 @@ div a:hover{
             <img src="./Vector (1).png" alt="" class="ms-4">
             <h6 class="display-6 d-inline" style="color: #7D7D7D;font-family:'Poppins', sans-serif; font-weight: 400;font-size: 16px;">30 People going</h6>
             <br>
-            <a href="https://en.wikipedia.org/wiki/Bern" class="card-title mt-2 me-1 countries" style="color:#2F2F2F;font-family:'Poppins', sans-serif; font-weight:700;font-size:29px;text-decoration: none;">Rio de Janeiro</a>
-            <div class="d-inline ms-5 ps-5">
+            <div class="d-flex justify-content-between align-items-center">
+            <a href="https://en.wikipedia.org/wiki/Bern" class="card-title  countries" style="color:#2F2F2F;font-family:'Poppins', sans-serif; font-weight:700;font-size:29px;text-decoration: none;">Rio de Janeiro</a>
+            <div class="d-inline ">
             <img src="./bi_star-fill.png" alt="">
             <img src="./bi_star-fill.png" alt="">
             <img src="./bi_star-fill.png" alt="">
             <img src="./bi_star-fill.png" alt="">
             <img src="./bi_star-fill.png" alt="">
-            </div>
+          </div>  
+          </div>
             <br>
             <img src="./ep_location.png" alt="">
             <h6 class="display-6 d-inline " style="color: #7D7D7D;font-family:'Poppins', sans-serif; font-weight: 400;font-size: 16px;">Brazil</h6>
@@ -688,7 +752,7 @@ div a:hover{
 
       <div class="col-4">
         <div style="position: relative;">
-          <img src="./Rectangle 19305 (2).png" alt="rect">
+          <img src="./Rectangle 19305 (2).png" alt="rect" style="max-width: 100%;">
           <img src="./Ellipse 623 (2).png" alt="" style="position: absolute; top:250px; left:3px; z-index:1;">
         </div>
           <div class="card-body text-start mt-4">
@@ -697,14 +761,16 @@ div a:hover{
             <img src="./Vector (1).png" alt="" class="ms-4">
             <h6 class="display-6 d-inline" style="color: #7D7D7D;font-family:'Poppins', sans-serif; font-weight: 400;font-size: 16px;">155 People going</h6>
             <br>
-            <a href="https://en.wikipedia.org/wiki/Bern" class="card-title mt-2 me-5 pe-5 countries" style="color:#2F2F2F;font-family:'Poppins', sans-serif; font-weight:700;font-size:29px;text-decoration: none;">Giza</a>
-            <div class="d-inline ms-5 ps-5">
+            <div class="d-flex justify-content-between align-items-center">
+            <a href="https://en.wikipedia.org/wiki/Bern" class="card-title  countries" style="color:#2F2F2F;font-family:'Poppins', sans-serif; font-weight:700;font-size:29px;text-decoration: none;">Giza</a>
+            <div class="d-inline ">
             <img src="./bi_star-fill.png" alt="">
             <img src="./bi_star-fill.png" alt="">
             <img src="./bi_star-fill.png" alt="">
             <img src="./bi_star-fill.png" alt="">
             <img src="./bi_star-fill.png" alt="">
-            </div>
+          </div>  
+          </div>
             <br>
             <img src="./ep_location.png" alt="">
             <h6 class="display-6 d-inline " style="color: #7D7D7D;font-family:'Poppins', sans-serif; font-weight: 400;font-size: 16px;">Egypt</h6>
@@ -728,7 +794,7 @@ div a:hover{
   <div class="row my-5  align-items-center justify-content-center">
     <div class="col-4">
       <div style="position: relative;">
-        <img src="./Rectangle 19305 (3).png" alt="rect">
+        <img src="./Rectangle 19305 (3).png" alt="rect" style="max-width: 100%;">
         <img src="./Ellipse 623 (3).png" alt="" style="position: absolute; top:250px; left:10px; z-index:1;">
       </div>
         <div class="card-body text-start mt-4">
@@ -737,14 +803,16 @@ div a:hover{
           <img src="./Vector (1).png" alt="" class="ms-4">
           <h6 class="display-6 d-inline" style="color: #7D7D7D;font-family:'Poppins', sans-serif; font-weight: 400;font-size: 16px;">25 People going</h6>
           <br>
-            <a href="https://en.wikipedia.org/wiki/Bern" class="card-title mt-2 me-5 pe-5 countries" style="color:#2F2F2F;font-family:'Poppins', sans-serif; font-weight:700;font-size:29px;text-decoration: none;">Tokyo</a>
-            <div class="d-inline ms-5 ps-5">
+          <div class="d-flex justify-content-between align-items-center">
+            <a href="https://en.wikipedia.org/wiki/Bern" class="card-title  countries" style="color:#2F2F2F;font-family:'Poppins', sans-serif; font-weight:700;font-size:29px;text-decoration: none;">Tokyo</a>
+            <div class="d-inline ">
             <img src="./bi_star-fill.png" alt="">
             <img src="./bi_star-fill.png" alt="">
             <img src="./bi_star-fill.png" alt="">
             <img src="./bi_star-fill.png" alt="">
             <img src="./bi_star-fill.png" alt="">
-            </div>
+          </div>  
+          </div>
             <br>
           <img src="./ep_location.png" alt="">
           <h6 class="display-6 d-inline " style="color: #7D7D7D;font-family:'Poppins', sans-serif; font-weight: 400;font-size: 16px;">Japan</h6>
@@ -760,7 +828,7 @@ div a:hover{
 
     <div class="col-4">
       <div style="position: relative;">
-        <img src="./Rectangle 19305 (4).png" alt="rect">
+        <img src="./Rectangle 19305 (4).png" alt="rect" style="max-width: 100%;">
         <img src="./Ellipse 623 (4).png" alt="" style="position: absolute; top:250px; left:10px; z-index:1;">
       </div>
         <div class="card-body text-start mt-4">
@@ -769,16 +837,18 @@ div a:hover{
           <img src="./Vector (1).png" alt="" class="ms-4">
           <h6 class="display-6 d-inline" style="color: #7D7D7D;font-family:'Poppins', sans-serif; font-weight: 400;font-size: 16px;">30 People going</h6>
           <br>
-            <a href="https://en.wikipedia.org/wiki/Bern" class="card-title mt-2 me-5 pe-5 countries" style="color:#2F2F2F;font-family:'Poppins', sans-serif; font-weight:700;font-size:29px;text-decoration:none;">Riyadh</a>
-            <div class="d-inline ms-5 ps-5">
+          <div class="d-flex justify-content-between align-items-center">
+            <a href="https://en.wikipedia.org/wiki/Bern" class="card-title  countries" style="color:#2F2F2F;font-family:'Poppins', sans-serif; font-weight:700;font-size:29px;text-decoration:none;">Riyadh</a>
+            <div class="d-inline ">
             <img src="./bi_star-fill.png" alt="">
             <img src="./bi_star-fill.png" alt="">
             <img src="./bi_star-fill.png" alt="">
             <img src="./bi_star-fill.png" alt="">
             <img src="./bi_star-fill.png" alt="">
-            </div>
+          </div>  
+          </div>
             <br>
-          <img src="./ep_location.png" alt="">
+          <img src="/ep_location.png" alt="">
           <h6 class="display-6 d-inline " style="color: #7D7D7D;font-family:'Poppins', sans-serif; font-weight: 400;font-size: 16px;">Saudi Arabia</h6>
           <br>
           <p class="display-5 fw-bold d-inline me-3 ms-2 " style="color: #DF6951;font-family:'Poppins', sans-serif; font-weight: 500;font-size: 29px;">1,800$</p>
@@ -792,7 +862,7 @@ div a:hover{
 
     <div class="col-4">
       <div style="position: relative;">
-        <img src="./Rectangle 19305 (5).png" alt="rect">
+        <img src="./Rectangle 19305 (5).png" alt="rect" style="max-width: 100%;">
         <img src="./Ellipse 623 (5).png" alt="" style="position: absolute; top:250px; left:10px; z-index:1;">
       </div>
         <div class="card-body text-start mt-4">
@@ -801,14 +871,16 @@ div a:hover{
           <img src="./Vector (1).png" alt="" class="ms-4">
           <h6 class="display-6 d-inline" style="color: #7D7D7D;font-family:'Poppins', sans-serif; font-weight: 400;font-size: 16px;">155 People going</h6>
           <br>
-            <a href="https://en.wikipedia.org/wiki/Bern" class="card-title mt-2 me-5 pe-5 countries" style="color:#2F2F2F;font-family:'Poppins', sans-serif; font-weight:700;font-size:29px; text-decoration: none;">paris</a>
-            <div class="d-inline ms-5 ps-5">
+          <div class="d-flex justify-content-between align-items-center">
+            <a href="https://en.wikipedia.org/wiki/Bern" class="card-title  countries" style="color:#2F2F2F;font-family:'Poppins', sans-serif; font-weight:700;font-size:29px; text-decoration: none;">paris</a>
+            <div class="d-inline ">
             <img src="./bi_star-fill.png" alt="">
             <img src="./bi_star-fill.png" alt="">
             <img src="./bi_star-fill.png" alt="">
             <img src="./bi_star-fill.png" alt="">
             <img src="./bi_star-fill.png" alt="">
             </div>
+          </div>
             <br>
           <img src="./ep_location.png" alt="">
           <h6 class="display-6 d-inline " style="color: #7D7D7D;font-family:'Poppins', sans-serif; font-weight: 400;font-size: 16px;">France</h6>
@@ -838,10 +910,10 @@ div a:hover{
   <div class="container-fluid background-container3">
       <div class="d-flex justify-content-center align-items-center mt-5 position-relative quote" style="height:70%;">
         <div class=" position-absolute promote" style="z-index: 1;letter-spacing:3px;font-family:'Poppins', sans-serif; font-weight: 700;font-size: 25px;line-height: 18px;color:#DF6951;left: 50%; top:20%; transform: translate(-50%, -50%);">PROMOTIONS</div>
-        <div class=" position-absolute mt-3 reviews" style="z-index: 1;letter-spacing: 5px; font-family:'Volkhov', sans-serif; font-weight: 700;font-size: 50px;line-height: 27px;color:#181E4B;left: 50%; top:25%; transform: translate(-50%, -50%);">See What Our Clients Say</div>
-        <div class="mb-4 position-absolute fw-bold about" style="z-index: 1;letter-spacing: 5px;font-family:'Volkhov', sans-serif; font-weight: 700;font-size: 50px;line-height: 27px;color:#181E4B; left: 50%; top:39%; transform: translate(-50%, -50%);">About Us</div>
+        <div class=" position-absolute mt-3 reviews" style="z-index: 1;letter-spacing: 5px; font-family:'Volkhov', sans-serif; font-weight: 700;font-size: 50px;line-height: 45px;color:#181E4B;left: 50%; top:35%; transform: translate(-50%, -50%);">See What Our Clients Say About us</div>
+        <!--<div class="mb-4 position-absolute fw-bold about" style="z-index: 1;letter-spacing: 5px;font-family:'Volkhov', sans-serif; font-weight: 700;font-size: 50px;line-height: 27px;color:#181E4B; left: 50%; top:39%; transform: translate(-50%, -50%);">About Us</div>-->
         <img src="./Travel_Concepts_2 1.png" alt="travel_concepts" class="position-absolute" style="z-index: 1;margin-right:1450px;margin-top:300px;">
-       <div class=" d-flex flex-column align-items-center  ms-5 position-relative" style="font-family:'Poppins', sans-serif; font-weight: 400;font-size:12px;color: #000;border:50px solid #ffffff;background-color: #ffffff;margin-top:25%;border-radius: 10px;text-align: center;">
+       <div class=" d-flex flex-column align-items-center  ms-5 position-relative position-absolute" style="font-family:'Poppins', sans-serif; font-weight: 400;font-size:12px;color: #000;border:50px solid #ffffff;background-color: #ffffff;margin-top:25%;border-radius: 10px;text-align: center;">
         <div class="mt-5">Vel officiis dolor ea illo aut eligendi ullam non laudantium<br> magnam et recusandae molestiae sit iure unde aut<br> voluptate quaerat. Id sunt provident quo possimus<br> impedit vel doloremque obcaecati qui ullam consectetur<br> et ipsum omnis.</div>
         <div class="fw-bold mt-2">Christine Beckam - Designer</div>
         <img src="./Ellipse 624.png" alt="Ellipse" class="position-absolute" style="bottom:110px;z-index: 1;">
@@ -858,11 +930,11 @@ div a:hover{
 
 </section>
 
-<section class="footer">
+<section class="footer" style="background-image: url('./Footer\ img.png') ;background-repeat: no-repeat;background-position:right;background-size:contain;">
  <div class="d-flex justify-content-around mt-5">
     <div class="">
       <p class="position-relative" style="color:#181E4B;font-family:'Volkhov', sans-serif; font-weight: 700;font-size:32px;">Travel</p>
-      <img src="./Arrow 05 (2).png" alt="arrow" class="position-absolute ms-4" style="margin-top: -2%;">
+      <img src="./Arrow 05 (2).png" alt="arrow" class="position-absolute ms-4 travel-arrow" style="margin-top: -3%;">
       <p style="color: #757095;font-family: 'Manrope', sans-serif;font-weight:500;font-size: 16px;" class="mt-4">Travel helps companies manage<br> payments easily.</p>
       <div class="mt-3">
         <a href="#" class="me-2"><img src="./052-linkedin.png" alt="linkedin"></a>
