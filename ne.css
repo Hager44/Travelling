@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'Circular Std';
+    src: url('./circular-std-font-family/CircularStd-Book.woff2') format('woff2'),
+         url('./circular-std-font-family/CircularStd-Book.woff') format('woff');
+    /* Add more font weights and formats if needed */
+    font-weight: normal;
+    font-style: normal;
+  }
+  
 @media (max-width:1000px) {
     .context,
     .search-tool,
@@ -87,10 +96,23 @@
      .search-tool{
         margin-left: 1.2em;
      }
-     .travel-arrow{
+     /*.travel-arrow{
         margin-top: -11% !important;
+     }*/
+     .honeymoon-photo{
+        margin-left: 110px !important;
      }
-    
+    .honeymoon-text{
+        font-size: 40px !important;
+         
+    }
+    .honeymoon-paragraph{
+        font-size: 35px !important;
+
+    }
+    .Copyright-imp{
+        font-size: 33px !important;
+    }
     
   }
  
