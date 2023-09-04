@@ -5,9 +5,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Volkhov:wght@700&display=swap" rel="stylesheet">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="./ne.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+
 
     
     
@@ -91,13 +93,7 @@
   background-color: white;
 
 }
-/*.new_rect{
-  left:24%;
-  top:100px;
-  z-index:-1;
-  visibility: hidden !important;
-  
-}*/
+
 
 .new:hover .new_rect{
   visibility: visible !important;
@@ -107,13 +103,7 @@
 
 
 
-/*.new_rect0{
-  left:2%;
-  top:1340px;
-  z-index:-1;
-  visibility: hidden !important;
-  
-}*/
+
 
 .row-white-box:hover .new_rect0{
   visibility: visible !important;
@@ -121,13 +111,7 @@
 
 }
 
-/*.new_rect1{
-  left:46%;
-  top:1320px;
-  z-index:-1;
-  visibility: hidden !important;
-  
-}*/
+
 
 .row-white-box:hover .new_rect1{
   visibility: visible !important;
@@ -136,13 +120,7 @@
 }
 
 
-/*.new_rect2{
-  left:68%;
-  top:1320px;
-  z-index:-1;
-  visibility: hidden !important;
-  
-}*/
+
 
 .row-white-box:hover .new_rect2{
   visibility: visible !important;
@@ -225,6 +203,17 @@ div a:hover{
       justify-content: center; /* Center the collapsing content horizontally */
     }
 
+    /* Increase the size of the collapse button */
+.navbar-toggler {
+  font-size: 24px; /* Adjust the font size as needed */
+}
+
+/* Increase the font size of the collapsed content */
+.navbar-collapse {
+  font-size: 20px; /* Adjust the font size as needed */
+}
+
+    
    
 
 
@@ -258,12 +247,7 @@ div a:hover{
              </div>
             </div>
         </div>
-        <!--<div class="container mt-5">
-            <div class="d-flex align-items-end flex-column">
-              <h2>Travel</h2>
-              <img src="./Arrow 05 (1).png" alt="arrow" class="img-fluid">
-            </div>
-          </div>-->
+       
           </a>
     
         <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
@@ -416,57 +400,40 @@ div a:hover{
       We Offer Best Services
     </div>
  </section>
-<section class="services">
+
+<!-- Code for Large Screens -->
+<section class="services d-none d-md-block">
   <div class="container d-flex justify-content-center mt-5">
     <div class="row">
-      <!--<div class="col-3">
-        <div class="row-white-box">
-        <img src="./Rectangle 157.png" alt="second-image" class="position-absolute  mt-5 tour-guide-rect  " style="top:auto;transform: translate(-50%, -50%);z-index: -1;left:15%;">
-        <img src="./tour-guide 1.png" alt="tour-guide" class="ms-5">
-        <img src="./Rectangle 157 (2).png" alt="rect" class="position-absolute new_rect0" >
-        <h5 class="display-5 mt-4" style="font-family:'Poppins', sans-serif; font-weight:600;font-size: 20px;">Guided Tours</h5>
-        <h6 class="display-6" style="font-family:'Poppins', sans-serif; font-weight:500;font-size: 16px;">sunt qui repellat saepe quo velit aperiam id aliquam placeat.</h6>
-        </div>-->
-        <div class="col-3 position-relative new">
-          <img src="./Rectangle 157 (2).png" alt="rect" class="position-absolute new_rect" style="top: 10rem;right:80%;visibility: hidden;"  >
-          <div class="row-white-box position-relative"><!--" row-white-box for hovering"-->
-            <img src="./Rectangle 157.png" alt="second-image" class="position-absolute mt-5 rectangle0" style="top:auto; transform: translate(-50%, -50%);z-index:-1;left:35%;">
-            <img src="./tour-guide 1.png" alt="travelling" class="ms-5" style="background-image: url('./Rectangle\ 157.png') no-repeat center center;">
-            
-            <h5 class="display-5" style="font-family:'Poppins', sans-serif; font-weight:600;font-size: 20px;">Guided Tours</h5>
-            <h6 class="display-6" style="font-family:'Poppins', sans-serif; font-weight:500;font-size: 16px;">sunt qui repellat saepe quo velit aperiam id aliquam placeat.</h6>
-          </div>
+      
+      <!-- Column 1 -->
+      <div class="col-3 position-relative new">
+        <img src="./Rectangle 157 (2).png" alt="rect" class="position-absolute new_rect" style="top: 10rem; right: 80%; visibility: hidden;">
+        <div class="row-white-box position-relative"><!--" row-white-box for hovering"-->
+          <img src="./Rectangle 157.png" alt="second-image" class="position-absolute mt-5 rectangle0" style="top:auto; transform: translate(-50%, -50%);z-index:-1;left:35%;">
+          <img src="./tour-guide 1.png" alt="travelling" class="ms-5" style="background-image: url('./Rectangle\ 157.png') no-repeat center center;">
+          
+          <h5 class="display-5" style="font-family:'Poppins', sans-serif; font-weight:600; font-size: 20px;">Guided Tours</h5>
+          <h6 class="display-6" style="font-family:'Poppins', sans-serif; font-weight:500; font-size: 16px;">sunt qui repellat saepe quo velit aperiam id aliquam placeat.</h6>
+        </div>
       </div>
-      <!--<div class="col-3 position-relative new">
-        <img src="Rectangle 157 (2).png" alt="rect" class="position-absolute new_rect" style="top: 16rem;right:80%;visibility: hidden;"  >
-        <div class="row-white-box position-relative">
-          <img src="./Rectangle 158.png" alt="second-image" class="position-absolute mt-5 rectangle" style="top:auto; transform: translate(-50%, -50%);z-index:-1;left: 45%;">
-          <img src="./travelling 1.png" alt="travelling" class="ms-5 " style="background-image: url('./Rectangle\ 158.png') no-repeat center center;">
+      
+      <!-- Column 2 -->
+      <div class="col-3 position-relative new">
+        <img src="./Rectangle 157 (2).png" alt="rect" class="position-absolute new_rect" style="top: 11rem;right:80%;visibility: hidden;"  >
+        <div class="row-white-box position-relative" style="margin-top: -20px;">
+          <img src="./Rectangle 158.png" alt="second-image" class="position-absolute mt-5 rectangle" style="top:auto; transform: translate(-50%, -50%);z-index:-1;left:30%;">
+          <img src="./travelling 1.png" alt="travelling" class="ms-5" style="background-image: url('./Rectangle\ 158.png') no-repeat center center;">
           
           <h5 class="display-5" style="font-family:'Poppins', sans-serif; font-weight:600;font-size: 20px;">Best Flights Options</h5>
-          <h6 class="display-6" style="font-family:'Poppins', sans-serif; font-weight:500;font-size: 16px;">sunt qui repellat saepe<br> quo velit aperiam id<br> aliquam placeat.</h6>
-        </div>-->
-        <div class="col-3 position-relative new">
-          <img src="./Rectangle 157 (2).png" alt="rect" class="position-absolute new_rect" style="top: 11rem;right:80%;visibility: hidden;"  >
-          <div class="row-white-box position-relative" style="margin-top: -20px;"><!--" row-white-box for hovering"-->
-            <img src="./Rectangle 157.png" alt="second-image" class="position-absolute mt-5 rectangle" style="top:auto; transform: translate(-50%, -50%);z-index:-1;left:30%;">
-            <img src="./travelling 1.png" alt="travelling" class="ms-5" style="background-image: url('./Rectangle\ 158.png') no-repeat center center;">
-            
-            <h5 class="display-5" style="font-family:'Poppins', sans-serif; font-weight:600;font-size: 20px;">Best Flights Options</h5>
-            <h6 class="display-6" style="font-family:'Poppins', sans-serif; font-weight:500;font-size: 16px;">sunt qui repellat saepe quo velit aperiam id aliquam placeat.</h6>
-          </div>
+          <h6 class="display-6" style="font-family:'Poppins', sans-serif; font-weight:500;font-size: 16px;">sunt qui repellat saepe quo velit aperiam id aliquam placeat.</h6>
+        </div>
       </div>
-      <!--<div class="col-3">
-        <div class="row-white-box">
-        <img src="./hands 1.png" alt="hands">
-        <img src="./Rectangle 159.png" alt="second-image" class="position-absolute mt-5 hands-rect" style="top:auto; left: 55%; transform: translate(-50%, -50%);z-index: -1;">
-        <img src="./Rectangle 157 (2).png" alt="rect" class="position-absolute new_rect1" >
-        <h5 class="display-5 mt-4" style="font-family:'Poppins', sans-serif; font-weight:600;font-size: 20px;">Religious Tours</h5>
-        <h6 class="display-6" style="font-family:'Poppins', sans-serif; font-weight:500;font-size: 16px;">sunt qui repellat saepe quo velit aperiam id aliquam placeat.</h6>
-      </div>-->
+     
+      <!-- Column 3 -->
       <div class="col-3 position-relative new">
         <img src="./Rectangle 157 (2).png" alt="rect" class="position-absolute new_rect" style="top: 10rem;right:80%;visibility: hidden;"  >
-        <div class="row-white-box position-relative"><!--" row-white-box for hovering"-->
+        <div class="row-white-box position-relative">
           <img src="./Rectangle 159.png" alt="second-image" class="position-absolute mt-5 rectangle1" style="top:auto; transform: translate(-50%, -50%);z-index:-1;left:35%;">
           <img src="./hands 1.png" alt="hands" class="ms-5" style="background-image: url('./Rectangle\ 157.png') no-repeat center center;">
           
@@ -474,17 +441,11 @@ div a:hover{
           <h6 class="display-6" style="font-family:'Poppins', sans-serif; font-weight:500;font-size: 16px;">sunt qui repellat saepe<br> quo velit aperiam id<br> aliquam placeat.</h6>
         </div>
       </div>
-      <!--<div class="col-3">
-        <div class="row-white-box">
-        <img src="./Rectangle 160.png" alt="second-image" class="position-absolute mt-5 medical-team-rect" style="top:auto; left:77%; transform: translate(-50%, -50%);z-index: -1;">
-        <img src="./medical-team 1.png" alt="medical-team">
-        <img src="./Rectangle 157 (2).png" alt="rect" class="position-absolute new_rect2" >
-        <h5 class="display-5 mt-3" style="font-family:'Poppins', sans-serif; font-weight:600;font-size: 20px;">Medical insurance</h5>
-        <h6 class="display-6" style="font-family:'Poppins', sans-serif; font-weight:500;font-size:16px;">sunt qui repellat saepe quo velit aperiam id aliquam placeat.</h6>
-      </div>-->
+      
+      <!-- Column 4 -->
       <div class="col-3 position-relative new">
         <img src="./Rectangle 157 (2).png" alt="rect" class="position-absolute new_rect" style="top: 10rem;right:80%;visibility: hidden;"  >
-        <div class="row-white-box position-relative"><!--" row-white-box for hovering"-->
+        <div class="row-white-box position-relative">
           <img src="./Rectangle 160.png" alt="second-image" class="position-absolute mt-5 rectangle2" style="top:auto; transform: translate(-50%, -50%);z-index:-1;left:35%;">
           <img src="./medical-team 1.png" alt="hands" class="ms-5" style="background-image: url('./Rectangle\ 157.png') no-repeat center center;">
           
@@ -492,11 +453,72 @@ div a:hover{
           <h6 class="display-6" style="font-family:'Poppins', sans-serif; font-weight:500;font-size: 16px;">sunt qui repellat saepe<br> quo velit aperiam id<br> aliquam placeat.</h6>
         </div>
       </div>
+      
     </div>
   </div>
-  
+</section>
 
-  
+<!-- Code for Mobile Phones -->
+<section class="services d-md-none">
+  <div class="container mt-5">
+    
+    <!-- Column 1 -->
+    <div class="row">
+      <div class="col-12 position-relative new">
+        <img src="./Rectangle 157 (2).png" alt="rect" class="position-absolute new_rect" style="top: 11rem; right: 80%; visibility: hidden;">
+        <div class="row-white-box position-relative text-center">
+          <img src="./Rectangle 157.png" alt="second-image" class="position-absolute mt-5" style="top:auto; transform: translate(-50%, -50%);z-index:-1;left:54%;">
+          <img src="./tour-guide 1.png" alt="travelling" class="ms-5" style="background-image: url('./Rectangle\ 157.png') no-repeat center center;">
+          
+          <h5 class="display-5" style="font-family:'Poppins', sans-serif; font-weight:600; font-size: 20px;">Guided Tours</h5>
+          <h6 class="display-6" style="font-family:'Poppins', sans-serif; font-weight:500; font-size: 16px;">sunt qui repellat saepe quo velit aperiam id aliquam placeat.</h6>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Column 2 -->
+    <div class="row">
+      <div class="col-12 position-relative new">
+        <img src="./Rectangle 157 (2).png" alt="rect" class="position-absolute new_rect" style="top: 12rem;right:80%;visibility: hidden;"  >
+          <div class="row-white-box position-relative text-center" >
+            <img src="./Rectangle 158.png" alt="second-image" class="position-absolute mt-5" style="top:auto; transform: translate(-50%, -50%);z-index:-1;left:51%;">
+            <img src="./travelling 1.png" alt="travelling" class="ms-5" style="background-image: url('./Rectangle\ 158.png') no-repeat center center;">
+            
+            <h5 class="display-5" style="font-family:'Poppins', sans-serif; font-weight:600;font-size: 20px;">Best Flights Options</h5>
+            <h6 class="display-6" style="font-family:'Poppins', sans-serif; font-weight:500;font-size: 16px;">sunt qui repellat saepe quo velit aperiam id aliquam placeat.</h6>
+          </div>
+      </div>
+    </div>
+   
+    <!-- Column 3 -->
+    <div class="row">
+      <div class="col-12 position-relative new">
+        <img src="./Rectangle 157 (2).png" alt="rect" class="position-absolute new_rect" style="top: 15rem;right:80%;visibility: hidden;"  >
+        <div class="row-white-box position-relative text-center">
+          <img src="./Rectangle 159.png" alt="second-image" class="position-absolute mt-5" style="top:auto; transform: translate(-50%, -50%);z-index:-1;left:54%;">
+          <img src="./hands 1.png" alt="hands" class="ms-5" style="background-image: url('./Rectangle\ 157.png') no-repeat center center;">
+          
+          <h5 class="display-5" style="font-family:'Poppins', sans-serif; font-weight:600;font-size: 20px;">Religious Tours</h5>
+          <h6 class="display-6" style="font-family:'Poppins', sans-serif; font-weight:500;font-size: 16px;">sunt qui repellat saepe<br> quo velit aperiam id<br> aliquam placeat.</h6>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Column 4 -->
+    <div class="row">
+      <div class="col-12 position-relative new">
+        <img src="./Rectangle 157 (2).png" alt="rect" class="position-absolute new_rect" style="top: 15rem;right:80%;visibility: hidden;"  >
+        <div class="row-white-box position-relative text-center">
+          <img src="./Rectangle 160.png" alt="second-image" class="position-absolute mt-5" style="top:auto; transform: translate(-50%, -50%);z-index:-1;left:54%;">
+          <img src="./medical-team 1.png" alt="hands" class="ms-5" style="background-image: url('./Rectangle\ 157.png') no-repeat center center;">
+          
+          <h5 class="display-5" style="font-family:'Poppins', sans-serif; font-weight:600;font-size: 20px;">Religious Tours</h5>
+          <h6 class="display-6" style="font-family:'Poppins', sans-serif; font-weight:500;font-size: 16px;">sunt qui repellat saepe<br> quo velit aperiam id<br> aliquam placeat.</h6>
+        </div>
+      </div>
+    </div>
+    
+  </div>
 </section>
 
 
@@ -526,54 +548,7 @@ div a:hover{
  <section class="trips">
     <div class="container ps-5">
      <div class="row">
-        <!--<div class="col-lg-5 col-12 ms-5 ps-5 pe-5">
-          <h6 class="display-6 mt-5" style="font-family:'Poppins', sans-serif; font-weight: 700;font-size: 18px;color: #DF6951;">Fast & Easy</h6>
-          <h6 class="display-6 text-black" style="font-family: 'Volkhov', serif;font-weight:700;">Get Your Favourite Resort Bookings</h6>
-          <div class="container mt-2">
-            <div class="row">
-              <div class="col-md-2 col-sm-8">
-                <img src="./Group 7.png" alt="rectangle" class="img-fluid">
-              </div>
-              <div class="col-md-10 col-sm-4">
-                <div class="d-flex flex-column justify-content-center h-100">
-                  <h5 class="lead display-5" style="font-family:'Poppins', sans-serif; font-weight:700; font-size: 16px;">Choose Destination</h5>
-                  <h6 class="display-6 d-sm-none d-md-inline" style="font-family:'Poppins', sans-serif; font-weight:400; font-size: 16px; line-height: 19.92px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus.</h6>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="container mt-2">
-            <div class="row">
-              <div class="col-md-2 col-sm-8">
-                <img src="./Group 12.png" alt="rectangle" class="img-fluid">
-              </div>
-              <div class="col-md-10 col-sm-4">
-                <div class="d-flex flex-column justify-content-center h-100">
-                  <h5 class="lead display-5" style="font-family:'Poppins', sans-serif; font-weight:700; font-size: 16px;">Check Availability</h5>
-                  <h6 class="display-6 d-sm-none d-md-inline" style="font-family:'Poppins', sans-serif; font-weight:400; font-size: 16px; line-height: 19.92px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus.</h6>
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-          <div class="container mt-2">
-            <div class="row">
-              <div class="col-md-2 col-sm-8">
-                <img src="./Group 11.png" alt="rectangle" class="img-fluid">
-              </div>
-              <div class="col-md-10 col-sm-4">
-                <div class="d-flex flex-column justify-content-center h-100">
-                  <h5 class="lead display-5" style="font-family:'Poppins', sans-serif; font-weight:700; font-size: 16px;">Let’s Go</h5>
-                  <h6 class="display-6 d-sm-none d-md-inline" style="font-family:'Poppins', sans-serif; font-weight:400; font-size: 16px; line-height: 19.92px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus.</h6>
-                </div>
-              </div>
-            </div>
-          </div>
-          
-
-        </div>-->
+        
         <!-- For Large Screens (lg and above) -->
 <div class="d-none d-lg-block col-lg-5 col-12 ms-5 ps-5 pe-5">
   <h6 class="display-6 mt-5" style="font-family:'Poppins', sans-serif; font-weight: 700;font-size: 18px;color: #DF6951;">Fast & Easy</h6>
@@ -1026,49 +1001,7 @@ div a:hover{
 
 </section>
 
-<!--<section class="footer" style="background-image: url('./Footer\img.png') ;background-repeat: no-repeat;background-position:right;background-size:contain;">
- <div class="d-flex justify-content-around mt-5">
-    <div class="">
-      <p class="position-relative" style="color:#181E4B;font-family:'Volkhov', sans-serif; font-weight: 700;font-size:32px;">Travel</p>
-      <img src="./Arrow 05 (2).png" alt="arrow" class="position-absolute ms-4 travel-arrow" style="margin-top: -3%;">
-      <p style="color: #757095;font-family: 'Manrope', sans-serif;font-weight:500;font-size: 16px;" class="mt-4">Travel helps companies manage<br> payments easily.</p>
-      <div class="mt-3">
-        <a href="#" class="me-2"><img src="./052-linkedin.png" alt="linkedin"></a>
-        <a href="#" class="me-2"><img src="./Vector (3).png" alt="messenger"></a>
-        <a href="#" class="me-2"><img src="./Vector (4).png" alt="twitter"></a>
-        <a href="#" class="me-2"><img src="./Vector (5).png" alt="infinity"></a>
-        
-      </div>
-    </div>
-    <div class="">
-      <p style="font-family: 'Manrope', sans-serif;font-weight:500;font-size: 21px;color: #181433;" class="fw-bold mt-3">Company</p>
-      <a href="#" style="font-family: 'Manrope', sans-serif;font-weight:500;font-size: 16px;color: #181433; text-decoration:none;" class="d-block mb-2">About Us</a>
-      <a href="#" style="font-family: 'Manrope', sans-serif;font-weight:500;font-size: 16px;color: #181433; text-decoration: none;" class="d-block mb-2">Careers</a>
-      <a href="#" style="font-family: 'Manrope', sans-serif;font-weight:500;font-size: 16px;color: #181433; text-decoration: none;" class="d-block mb-2">Blog</a>
-      <a href="#" style="font-family: 'Manrope', sans-serif;font-weight:500;font-size: 16px;color: #181433;text-decoration: none;" class="d-block mb-2">Pricing</a>
-    </div>
-    <div class="">
-      <p style="font-family: 'Manrope', sans-serif;font-weight:500;font-size: 21px;color: #181433;" class="fw-bold mt-3">Destinations</p>
-      <a href="#" style="font-family: 'Manrope', sans-serif;font-weight:500;font-size: 16px;color: #181433; text-decoration:none;" class="d-block mb-1">Maldives</a>
-      <a href="#" style="font-family: 'Manrope', sans-serif;font-weight:500;font-size: 16px;color: #181433; text-decoration: none;" class="d-block mb-1">Los Angelas</a>
-      <a href="#" style="font-family: 'Manrope', sans-serif;font-weight:500;font-size: 16px;color: #181433; text-decoration: none;" class="d-block mb-1">Las Vegas</a>
-      <a href="#" style="font-family: 'Manrope', sans-serif;font-weight:500;font-size: 16px;color: #181433;text-decoration: none;" class="d-block mb-1">Torronto</a>
-    </div>
-    <div class="">
-      <p style="font-family: 'Manrope', sans-serif;font-weight:500;font-size: 21px;color: #181433;" class="fw-bold mt-3">Join Our Newsletter</p>
-      <div class="input-group mb-3">
-        <input type="email" class="form-control" placeholder="Your email address" aria-label="Recipient's username" aria-describedby="basic-addon2" style="color:757095;font-family: 'Manrope', sans-serif;font-weight:500;font-size:16px;background-color: #EEEEFF;border-radius:0px;box-shadow: #EEEEFF;">
-        <button type="button" class="btn input-group-text" style="background-color: #DF6951;color: #ffffff;border-radius: 5px; font-family: 'Manrope', sans-serif;font-weight:500;font-size:16px;">Subscribe</button>
-      </div>
-      <p style="color: #757095;font-family: 'Manrope', sans-serif;font-weight:500;font-size: 16px;">*Will send you weekly updates for your better
-        tour packages.</p>
-    </div>
 
-
- </div>
- <img src="./Rectangle 97.png" alt="line-hr" style="margin-left:8%;">
- <p style="color: #181433;font-family: 'Manrope', sans-serif;font-weight:500;font-size: 16px;text-align: center;">Copyright @ Xpro 2022. All Rights Reserved.</p>
-</section>-->
 <section class="footer" style="background-image: url('./Footer\ img.png'); background-repeat: no-repeat; background-position: right; background-size: contain;">
   <div class="container mt-5">
     <!-- Large Screen Layout -->
