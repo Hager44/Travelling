@@ -9,7 +9,7 @@
   
 @media (max-width:1000px) {
     .context,
-    .search-tool,
+    
     .image_group {
       position: relative;
       top:6%;
@@ -24,10 +24,10 @@
 
     }
     .scroll-container{
-        bottom: 516px !important;
+        bottom: 350px !important;
     }
     .input-container{
-        width: 525px !important;
+        width: 308px !important;
     }
     /*.new_rect0{
        left:25% !important;
@@ -41,6 +41,7 @@
       .eifel-tower{
         height: 485px !important;
         top: -205px !important;
+        display: none !important;
       }
     .quote{
         height: 100% !important;
@@ -51,9 +52,12 @@
     }
 
     .reviews{
-        line-height: 55px !important;
+        line-height: 25px !important;
         left: 54% !important;
-        top: 32% !important;
+        top: 25% !important;
+        font-size: 17px !important;
+        letter-spacing: 2px !important;
+
     }
     .about{
         left: 45% !important;
@@ -63,7 +67,7 @@
         width: fit-content !important;
         padding-right: 0px !important;
         margin-right:0px !important;
-        margin-left: 60px !important;
+        margin-left: 1px !important;
         
     }
     .background-container2{
@@ -93,26 +97,130 @@
      .medical-team-rect{
         left: 100% !important;
      }
-     .search-tool{
+    /* .search-tool{
         margin-left: 1.2em;
-     }
+     }*/
      /*.travel-arrow{
         margin-top: -11% !important;
      }*/
-     .honeymoon-photo{
+     /*.honeymoon-photo{
         margin-left: 110px !important;
-     }
+     }*/
     .honeymoon-text{
-        font-size: 40px !important;
+       padding-left: 0px !important;
+       margin-left: 0px !important;
+       margin-right: 0px !important;
          
     }
+    .honeymoon1{
+        visibility:hidden !important;
+    }
+    
     .honeymoon-paragraph{
-        font-size: 35px !important;
+        font-size: 30px !important;
 
     }
     .Copyright-imp{
         font-size: 33px !important;
     }
+    .trips-container{
+        padding-left: 0px !important;
+    }
+    .fast-easy{
+        display: flex;
+        justify-content: center;
+    }
+    .honeymoon-specials{
+        display: flex;
+        justify-content: center;
+    }
+    .client-paragraph{
+        margin-left: 0px !important;
+        margin-top: 70% !important;
+    }
+    .client-ellipse{
+        bottom: 181px !important;
+    }
+    .client-vector{
+        bottom: 169px !important;
+        right: 201px !important;
+    }
+    .trending-tour{
+        font-size: 25px !important;
+    }
+    .trips-countries{
+        margin-bottom: 3rem !important;
+    }
+    .trips-ellipse{
+        top: 228px !important;
+    }
+    .promotion-container{
+        padding-left: 0px !important;
+    }
+    .promotion-paragraph{
+        padding-left: 3rem !important;
+        margin-left: 3rem !important;
+    }
+    .nav-text{
+        font-size: 42px !important;
+    }
+    /*.search-tool{
+        display: none !important;
+    }*/
+    .image_group{
+        display: none !important;
+    }
+    .airlines{
+        display: none !important;
+    }
+    .explore1-img{
+        height: 194px !important;
+        font-size: 18px !important;
+
+    }
+    .explore1-text{
+        height: 106px !important;
+        font-size: 37px !important;
+        line-height: 40px !important;
+
+    }
+    .explore2-img{
+        height: 194px !important;
+        font-size: 18px !important;
+
+    }
+    .explore2-text{
+        height: 106px !important;
+        font-size: 37px !important;
+        line-height: 40px !important;
+
+    }
+    .outer-half-circle{
+       width: 274px !important;
+    }
+    .outer-inner-circle{
+       width: 136px !important;
+    }
+    .search-tool{
+        margin-top:4rem !important;
+        margin-left: 1rem !important;
+      }
+      .btn1{
+        font-size: 10px !important;
+      }
+      .custom-input{
+        font-size: 10px !important;
+        width: 75px !important;
+      }
     
   }
+  @media (max-width: 767px) {
+    /* Adjust margin-left for smaller screens to prevent horizontal scrolling */
+    img[src*="Rectangle 97.png"] {
+      margin-left: 0px !important; /* Adjust this value as needed */
+      max-width: 100% !important;
+    }
+  }
+
+  
  
