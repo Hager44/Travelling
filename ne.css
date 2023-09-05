@@ -212,6 +212,9 @@
         font-size: 10px !important;
         width: 75px !important;
       }
+      .scroll{
+        display: none !important;
+      }
     
   }
   @media (max-width: 767px) {
