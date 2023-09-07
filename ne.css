@@ -200,6 +200,27 @@
         line-height: 40px !important;
 
     }
+    .sepratir-text{
+        height: 172px !important;
+        font-size: 24px !important;
+        line-height: 37px !important;
+        
+
+    }
+    .background-sepratir{
+        height: 19vh !important;
+    }
+    .lg-only{
+        display:none;
+    }
+    .sepratir-line{
+        margin-left: -36% !important;
+        top: 14% !important;
+        width: 57% !important;
+      }
+      .explore-line{
+        margin-top: 0rem !important;
+      }
     .outer-half-circle{
        width: 274px !important;
        
