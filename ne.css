@@ -133,6 +133,11 @@
     .honeymoon-specials{
         display: flex;
         justify-content: center;
+        padding-top: 0px !important;
+        margin-top:1.5rem !important;
+    }
+    .honeymoon-photo{
+        width: 77% !important;
     }
     .client-paragraph{
         margin-left: 0px !important;
@@ -251,6 +256,9 @@
       }
       .promotion-rectangle{
         width: 100% !important;
+      }
+      .row-white-box{
+        margin-right: 3rem !important;
       }
   }
   @media (max-width: 767px) {
